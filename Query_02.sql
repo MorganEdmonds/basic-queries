@@ -1,0 +1,11 @@
+-- Write a query to list the product id, product name, and unit price of every 
+-- product. -- 
+
+USE northwind;
+
+SELECT ProductID, ProductName, UnitPrice
+
+FROM products;
+
+-- selecting pI pN & UP from products column 
+
